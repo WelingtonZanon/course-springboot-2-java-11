@@ -17,6 +17,7 @@ import com.coursejava.course.repositories.CategoryRepository;
 import com.coursejava.course.repositories.OrderRepository;
 import com.coursejava.course.repositories.ProductRepository;
 import com.coursejava.course.repositories.UserRepository;
+import com.sun.tools.javac.code.Attribute.Array;
 
 @Configuration
 @Profile("test")
