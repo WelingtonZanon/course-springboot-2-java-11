@@ -1004,3 +1004,69 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 19:53:03.229
 !MESSAGE executing callback sts4.classpath.gZJqwTFd SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-03-07 20:26:55.045
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:33.836
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gZJqwTFd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:33.838
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.gZJqwTFd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:33.841
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:33.843
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gZJqwTFd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:35.102
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:35.105
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1fa67a80[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:35.107
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.824
+!MESSAGE Boot LS startup time from start to initialized: 1715ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.896
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gfFPqRpgisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.898
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.900
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.902
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.904
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.906
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gfFPqRpg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.911
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.916
+!MESSAGE buffering callback sts4.classpath.gfFPqRpg course false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.918
+!MESSAGE executing callback sts4.classpath.gfFPqRpg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-07 20:42:36.933
+!MESSAGE executing callback sts4.classpath.gfFPqRpg SUCCESS [done]

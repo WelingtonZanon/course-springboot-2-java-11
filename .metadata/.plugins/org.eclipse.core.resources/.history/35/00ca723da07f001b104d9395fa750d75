@@ -15,7 +15,6 @@ import com.coursejava.course.entities.Product;
 import com.coursejava.course.entities.User;
 import com.coursejava.course.entities.enums.OrderStatus;
 import com.coursejava.course.repositories.CategoryRepository;
-import com.coursejava.course.repositories.OrderItemRepository;
 import com.coursejava.course.repositories.OrderRepository;
 import com.coursejava.course.repositories.ProductRepository;
 import com.coursejava.course.repositories.UserRepository;
@@ -32,8 +31,6 @@ public class TestConfig implements CommandLineRunner {
 	private CategoryRepository categoryRepository;
 	@Autowired
 	private ProductRepository productRepository;
-	@Autowired
-	private OrderItemRepository orderItemRepository;
 	
 	
 	@Override
@@ -75,7 +72,7 @@ public class TestConfig implements CommandLineRunner {
 		OrderItem oi3 = new OrderItem(o2, p3, 2, p3.getPrice()); 
 		OrderItem oi4 = new OrderItem(o3, p5, 2, p5.getPrice()); 
 		
-		orderItemRepository.saveAll(Arrays.asList(oi1,oi2,oi3,oi4));
+		
 		
 	}
 }
