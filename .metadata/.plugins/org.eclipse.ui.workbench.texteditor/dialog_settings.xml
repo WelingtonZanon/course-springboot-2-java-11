@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Order"/>
+		<item key="selection" value="Category"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="false"/>
@@ -11,6 +11,7 @@
 			<item value="User"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Category"/>
 			<item value="Order"/>
 		</list>
 	</section>
